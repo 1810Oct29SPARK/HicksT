@@ -1,6 +1,0 @@
-http(s)://api.sportradar.us/nascar-ot3/sc/2018/drivers/list.json?api_key=95j8gvhwcvkhkaq7wx8vkbe2
-
-
-
-Schedule Feed:
- http://api.sportradar.us/nascar-ot3/sc/2018/races/schedule.json?api_key=95j8gvhwcvkhkaq7wx8vkbe2
