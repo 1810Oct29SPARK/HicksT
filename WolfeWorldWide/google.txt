@@ -1,9 +1,0 @@
-YOUR API KEY:
-AIzaSyA3-XrmAK7cFxNwhdeT7BVdbQgZ-mr6oac
-
-var tampa = {lat: 27.968887, lng: -82.4695487};
-
-      map = new google.maps.Map(document.getElementById('map'), {
-        center: tampa,
-        zoom: 10
-      });
