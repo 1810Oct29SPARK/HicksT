@@ -1,0 +1,194 @@
+<!DOCTYPE <DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Wolfe World Wide: MotorSport Zone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="WolfeWW.css" />
+    <script src="WolfeWorldW.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3-XrmAK7cFxNwhdeT7BVdbQgZ-mr6oac&libraries=places"></script>
+    
+</head>
+<body>
+
+<div class="Top-Buttons">   
+    <div id="tb2"> 
+    <div id="TB-header">
+        <h1 class="top-h1">Wolfe Wx2: MotorSport Zone</h1>
+    </div>
+        
+    <div id="main-nav-div">    
+        <nav>
+            <a href="WolfeWorldWide.html">Home</a>
+            <a href="Map.html">Race Map</a>
+            <a href="RaceInfo.html">Upcoming Races</a>
+            <a href="home.html">Home</a>
+        </nav>
+    </div>
+    </div>
+</div>
+<div id="width-box">
+    <div id="section-container">
+        <section>
+           <div id="map"></div>
+        </section>
+    </div>
+
+    <div id="container-2">
+        <div id="container">       
+            <div id="main-header-div">
+    
+                <header>    
+                    <h1 class="h1class">Welcome Racers World-Wide</h1>
+                </header>
+            
+            </div>
+            
+
+            <div id="main-main-div">
+    
+                <main>
+                    <h1 class="h1class">main</h1>
+                    
+                    <p>Main
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ad consequuntur explicabo accusamus dolore placeat enim officia non veniam eligendi rem tempore optio quas sequi, odio voluptatibus quis ullam. Labore.
+                    </p>
+    
+                </main>
+            </div>
+
+            <div id="main-section-div">
+                <section>
+                    <h1 class="h1class">sections</h1>
+                    <p>Section
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui odio natus pariatur! Cum consequuntur laboriosam unde itaque! Cumque accusamus, velit distinctio magni corporis accusantium? Ad tenetur facere ipsum ea quos.
+                    </p>
+                </section>
+            </div>
+
+            <div>
+                <article id="main-article-div">
+                    <h1 class="h1class">article</h1>
+                    <p>Article
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt incidunt dolore facilis, unde assumenda distinctio officiis laudantium cum error explicabo minus quibusdam in laboriosam rerum est pariatur veniam! Impedit, optio!
+                    </p>
+                </article>
+            </div>
+        
+            <div>
+                <footer>
+                    <h1 class="h1class">Footer</h1>
+                    <p>Footer
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati accusamus, suscipit reiciendis, amet quaerat eius accusantium odit vero perspiciatis optio necessitatibus minus quod. Itaque velit optio laboriosam fugiat nam!
+                    </p>
+                </footer>
+            </div>
+
+        </div>      
+    </div>
+    
+    <div id="container-2">
+        <div id="main-aside-div">
+                    <div id="aside-headnav-div">
+                        <div id="aside-header-div-2">
+                            <header>    
+                                <h1 class="h1class">MotorSport Showdowns</h1>
+                            </header>
+                        </div>
+                    </div>
+
+        <div id="aside-headnav-div">
+            <div id="m-as-as-d">
+                <div id="aside-aside-div">
+                    <aside>
+                        <h1 id="Instagram">WolfeWW's Honorary Mentions</h1>
+                        <div >
+                            <img id="aside-pics" src="http://speedhunters-wp-production.s3.amazonaws.com/wp-content/uploads/2018/10/09202314/MG_57272018-Carlos-911s-for-Speedhunters-by-Naveed-Yousufzai-520x346.jpg" alt="The Speed Hunters">
+                        </div>
+                    </aside>
+                </div>
+                
+<hr>
+
+                <div id="aside-aside-div">
+                    <aside>
+                        <div >
+                            <img id="aside-pics" src="http://speedhunters-wp-production.s3.amazonaws.com/wp-content/uploads/2018/10/15182123/MustangKyle-Keiron-Berndt-Speedhunters-Toronto-2018-5261-1200x800.jpg" alt="The Speed Hunters">
+                        </div>
+                    </aside>
+                </div>  
+    
+ <hr>   
+                <div id="aside-aside-div">
+                    
+                    <aside>
+                        <div >
+                            <img id="aside-pics" src="http://speedhunters-wp-production.s3.amazonaws.com/wp-content/uploads/2018/11/14124039/2018-SH_Sheepey-Race-1000HP-Huracan-SEMA_Trevor-Ryan-001_-1200x800.jpg" alt="The Speed Hunters">
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+
+    </div>
+</div>
+<script>
+    // This example requires the Places library. Include the libraries=places
+    // parameter when you first load the API. For example:
+    // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
+    var map;
+    var service;
+    var infowindow;
+
+    function initMap() {
+        var tampa = {lat: 27.968887, lng: -82.4695487};
+        
+        var mapCenter = new google.maps.LatLng(27.968887, -82.4695487);
+        
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: mapCenter,
+            zoom: 10
+        });
+
+        var request = {
+            location: mapCenter,
+            radius: '1000', 
+            query: 'Race Track',
+            };
+
+        service = new google.maps.places.PlacesService(map);
+        service.textSearch(request,callback);
+
+    }
+
+        function callback(results, status) {
+        if (status == google.maps.places.PlacesServiceStatus.OK) {
+            for (var i = 0; i < results.length; i++) {
+                var place = results[i];
+                createMarker(results[i]);
+            }
+        }
+        }
+
+        function createMarker(place) {
+        var placeLoc = place.geometry.location;
+        var marker = new google.maps.Marker({
+            map: map,
+            position: place.geometry.location
+        });
+
+        google.maps.event.addListener(marker, 'click', function() {
+            infowindow.setContent(place.name);
+            infowindow.open(map, this);
+        });
+    }
+  </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3-XrmAK7cFxNwhdeT7BVdbQgZ-mr6oac&libraries=places&callback=initMap" async defer></script>
+</body>
+</body>
+</html>

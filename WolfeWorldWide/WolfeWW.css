@@ -1,0 +1,205 @@
+
+*{
+    box-sizing: border-box;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+height: 50%;
+
+}
+
+
+body{
+    background-image: linear-gradient(to bottom, white, whitesmoke, wheat);
+    background-attachment: fixed;
+    margin: 0;
+    font-family: palatino Linotype, book-antiqua, serif;
+}
+
+.Top-Buttons{
+    background-image: linear-gradient(to bottom, rgba(200,200,200,.50),rgba(200,200,200,.50),rgba(200,200,200,.50),rgba(200,200,200,.50),rgba(200,200,200,.50), rgba(25,25,25,.80));
+    border-bottom: .05px ridge black;
+    margin-bottom: 10px;
+    
+}
+
+
+#tb2{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+}
+
+#TB-Header{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-shadow: 2px 2px 5px maroon;
+    float: left;
+    margin: auto;
+}
+
+.top-h1{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#main-nav-div{    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 30%;
+    margin: auto;
+}
+#main-nav-div-2{    
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.form p{
+    margin-bottom:0;
+}
+#log-em{
+    width: 30%;
+    margin: auto;
+    float: left;
+}
+#log-pw{
+    width: 30%;
+    margin: auto;
+    float: left;
+}
+#Log-sub{
+    width: 30%;
+    float: left;
+    margin-top: 25px; 
+}
+
+
+
+
+.h1class{
+    text-decoration: underline;
+}
+
+
+/*MAIN SECTION*/
+#main-header-div{
+    text-align: center;
+    font-size: 10px;
+    background-image: linear-gradient(to bottom, rgba(50,50,50,.50),rgba(50,50,50,.50),rgba(50,50,50,.50),rgba(50,50,50,.50),rgba(50,50,50,.50), rgba(25,25,25,.80))
+}
+
+
+#width-box{
+    width: 70%;
+    margin: auto;
+}
+
+#section-container{
+    max-width: 20%;
+    width: 50%;
+    background: wheat;
+    float: left;
+    margin: 10px;
+    margin-top: 0;
+    text-align: center;
+    border: 1px ridge grey;
+}
+
+#conatiner-2{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    
+}
+
+#container{
+    max-width: 46.2%;
+    background-color: rgb(200,200,200,.50);
+    
+    display: flex;
+    flex-direction: column;
+    float: left;
+
+    text-align: center;
+    
+    border: 1px ridge black;
+    border-radius: 5px;
+    
+}
+
+
+/*ASIDE SECTION*/
+#main-aside-div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(200,200,200,.50);
+    max-width: 30%;   
+    float: right;
+    text-align: center;
+    border: 1px ridge black;
+    border-radius: 5px;
+    
+}
+
+#aside-headnav-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#aside-header-div-2{
+    text-align: center;
+    font-size: 10px;
+    background-image: linear-gradient(to bottom, rgba(50,50,50,.50),rgba(50,50,50,.50),rgba(50,50,50,.50),rgba(50,50,50,.50),rgba(50,50,50,.50), rgba(25,25,25,.80));
+}
+
+#aside-nav-div-2{  
+    text-align: left;
+    background-color: rgba(233, 206, 206, 0.8);
+    
+}
+#m-as-as-d{
+    
+}
+#aside-aside-div{
+    
+}
+
+#aside-pics{
+    max-width:100%;
+max-height:100%;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    border: 1px ridge black;
+    text-shadow: 1px 1px 1px darkred;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:hidden;
+    background-image: linear-gradient(to bottom, rgba(150,150,150,.30),rgba(150,150,150,.50),rgba(50,50,50,.50),rgba(50,50,50,.50),rgba(50,50,50,.50), rgba(25,25,25,.80));
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-shadow: 2px 2px 5px red;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}

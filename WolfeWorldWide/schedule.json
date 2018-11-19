@@ -1,0 +1,1495 @@
+{
+    "series": {
+        "id": "3e32047e-4ff3-4e35-a607-1546a2c32214",
+        "alias": "CUP",
+        "name": "Monster Energy NASCAR Cup"
+    },
+    "season": {
+        "id": "1a9a2cec-0d17-4fe5-acdd-19df5d5d16cc",
+        "year": 2018
+    },
+    "events": [{
+        "id": "0a108cd2-6a19-465d-948e-761407345cd8",
+        "name": "NASCAR Cup Series at Daytona",
+        "start_date": "2018-02-11",
+        "track": {
+            "name": "Daytona International Speedway",
+            "market": "Daytona Beach",
+            "completed": 1958,
+            "distance": 2.5,
+            "shape": "Tri-Oval",
+            "banking": "Turns: 31, Tri-Oval: 18, Backstretch: 3",
+            "frontstretch": 3800,
+            "backstretch": 3000,
+            "address": "1801 West International Speedway Blvd.",
+            "city": "Daytona Beach",
+            "state": "Florida",
+            "zip": "32114-1243",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b"
+        },
+        "races": [{
+            "id": "1da0200a-eb40-44e7-831f-a0ef204788ae",
+            "name": "Advance Auto Parts Clash",
+            "status": "closed",
+            "distance": 187,
+            "laps": 75,
+            "scheduled": "2018-02-11T20:00:00+00:00",
+            "start_time": "2018-02-11T20:00:00+00:00",
+            "end_time": "2018-02-11T21:30:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }, {
+            "id": "de34050f-64cd-48e3-921b-67e8582e8f93",
+            "name": "Can-Am Duel 1",
+            "status": "closed",
+            "distance": 150,
+            "laps": 60,
+            "scheduled": "2018-02-16T00:00:00+00:00",
+            "start_time": "2018-02-16T00:00:00+00:00",
+            "end_time": "2018-02-16T01:30:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }, {
+            "id": "990cfab2-6221-48e0-97b4-76a5f75fe10e",
+            "name": "Can-Am Duel 2",
+            "status": "closed",
+            "distance": 150,
+            "laps": 60,
+            "scheduled": "2018-02-16T01:55:00+00:00",
+            "start_time": "2018-02-16T01:30:00+00:00",
+            "end_time": "2018-02-16T03:00:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }, {
+            "id": "bf77ec20-2737-4adf-9442-aea6bf8e55a2",
+            "name": "DAYTONA 500",
+            "status": "closed",
+            "number": 1,
+            "distance": 500,
+            "laps": 200,
+            "scheduled": "2018-02-18T19:30:00+00:00",
+            "start_time": "2018-02-18T19:30:00+00:00",
+            "end_time": "2018-02-18T23:30:00+00:00",
+            "broadcast": {
+                "network": "FOX",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "0bfdfcb4-04b6-45cd-93b5-ba1d4cf84dfc",
+        "name": "NASCAR Cup Series at Atlanta",
+        "start_date": "2018-02-25",
+        "track": {
+            "name": "Atlanta Motor Speedway",
+            "market": "Atlanta",
+            "completed": 1960,
+            "distance": 1.54,
+            "shape": "Quad-Oval",
+            "banking": "Turns:24; Backstretch:5;Tri-Oval:5",
+            "frontstretch": 2332,
+            "backstretch": 1800,
+            "address": "1500 Highways 19 & 41 South",
+            "city": "Hampton",
+            "state": "Georgia",
+            "zip": "30228",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "75494065-bf21-4039-8d99-b8e438c8b4a4"
+        },
+        "races": [{
+            "id": "44bd9dd0-9475-4746-b142-f1871d5b9395",
+            "name": "Folds of Honor QuikTrip 500",
+            "status": "closed",
+            "number": 2,
+            "distance": 500,
+            "laps": 325,
+            "scheduled": "2018-02-25T20:15:00+00:00",
+            "start_time": "2018-02-26T17:00:00+00:00",
+            "end_time": "2018-02-26T00:00:00+00:00",
+            "broadcast": {
+                "network": "FOX",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "402496c4-584b-49f7-b851-7fa9ece16f06",
+        "name": "NASCAR Cup Series at Las Vegas",
+        "start_date": "2018-03-04",
+        "track": {
+            "name": "Las Vegas Motor Speedway",
+            "market": "Las Vegas",
+            "completed": 1996,
+            "distance": 1.5,
+            "shape": "D-Shaped Oval",
+            "banking": "Turns: 20, Frontstretch: 9, Backstretch: 9",
+            "frontstretch": 2275,
+            "backstretch": 1572,
+            "address": "7000 Las Vegas Blvd. North",
+            "city": "Las Vegas",
+            "state": "Nevada",
+            "zip": "89115",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "9580816f-e17c-4167-8402-ba16725bcb19"
+        },
+        "races": [{
+            "id": "2c78c9d9-1539-4ec3-88f9-54c70c53e3f5",
+            "name": "Pennzoil 400 presented by Jiffy Lube",
+            "status": "closed",
+            "number": 3,
+            "distance": 400,
+            "laps": 267,
+            "scheduled": "2018-03-04T20:30:00+00:00",
+            "start_time": "2018-03-04T20:30:00+00:00",
+            "end_time": "2018-03-05T00:00:00+00:00",
+            "broadcast": {
+                "network": "FOX",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "af80ca2a-8791-42f7-9c39-e425ff173290",
+        "name": "NASCAR Cup Series at Phoenix",
+        "start_date": "2018-03-11",
+        "track": {
+            "name": "ISM Raceway",
+            "market": "Phoenix",
+            "completed": 1964,
+            "distance": 1.0,
+            "shape": "Tri-Oval",
+            "banking": "Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3",
+            "frontstretch": 1179,
+            "backstretch": 1551,
+            "address": "7602 S 115th Avenue",
+            "city": "Avondale",
+            "state": "Arizona",
+            "zip": "85323",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "5dc82850-ba60-4bd6-8ce3-4e07e8094a83"
+        },
+        "races": [{
+            "id": "c911a41d-01d9-409e-90d9-a49e1c40d60f",
+            "name": "TicketGuardian 500",
+            "status": "closed",
+            "number": 4,
+            "distance": 312,
+            "laps": 312,
+            "scheduled": "2018-03-11T19:30:00+00:00",
+            "start_time": "2018-03-11T18:30:00+00:00",
+            "end_time": "2018-03-11T22:30:00+00:00",
+            "broadcast": {
+                "network": "FOX",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "5105d9ac-d3c4-4997-a641-4645a48654ec",
+        "name": "NASCAR Cup Series at California",
+        "start_date": "2018-03-18",
+        "track": {
+            "name": "Auto Club Speedway",
+            "market": "Fontana",
+            "completed": 1997,
+            "distance": 2.0,
+            "shape": "D-Shaped Oval",
+            "banking": "Turns:14;Backstretch:3:Frontstretch:11",
+            "frontstretch": 3100,
+            "backstretch": 2500,
+            "address": "9300 Cherry Avenue",
+            "city": "Fontana",
+            "state": "California",
+            "zip": "92335",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "b2bd268a-6ee6-4c6b-a7c6-ac5b1b7b6b0e"
+        },
+        "races": [{
+            "id": "74fab15c-283d-401c-ade9-927ceca46778",
+            "name": "Auto Club 400",
+            "status": "closed",
+            "number": 5,
+            "distance": 400,
+            "laps": 200,
+            "scheduled": "2018-03-18T19:30:00+00:00",
+            "start_time": "2018-03-18T19:30:00+00:00",
+            "end_time": "2018-03-18T23:00:00+00:00",
+            "broadcast": {
+                "network": "FOX",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "3b117117-28a6-49ae-8d28-a45083f1379c",
+        "name": "NASCAR Cup Series at Martinsville",
+        "start_date": "2018-03-25",
+        "track": {
+            "name": "Martinsville Speedway",
+            "market": "Martinsville",
+            "completed": 1947,
+            "distance": 0.526,
+            "shape": "Oval",
+            "banking": "Turns:12;Backstretch:0;Frontstretch:0",
+            "frontstretch": 800,
+            "backstretch": 800,
+            "address": "340 Speedway Road",
+            "city": "Martinsville",
+            "state": "Virginia",
+            "zip": "24112",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Short Track",
+            "owner": "International Speedway Corp.",
+            "id": "409dd8fb-2ab9-4181-9f0f-99545083b689"
+        },
+        "races": [{
+            "id": "a0b7eca0-02e6-41c7-bb15-54f74dc8774a",
+            "name": "STP 500",
+            "status": "closed",
+            "number": 6,
+            "distance": 263,
+            "laps": 500,
+            "scheduled": "2018-03-26T18:00:00+00:00",
+            "start_time": "2018-03-26T18:00:00+00:00",
+            "end_time": "2018-03-26T21:30:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "4463529c-58b2-4ee7-9e06-4a9c497f63b1",
+        "name": "NASCAR Cup Series at Texas",
+        "start_date": "2018-04-08",
+        "track": {
+            "name": "Texas Motor Speedway",
+            "market": "Fort Worth",
+            "completed": 1995,
+            "distance": 1.5,
+            "shape": "Quad-Oval",
+            "banking": "Turns:24;Backstretch:5;Tri-Oval:5",
+            "frontstretch": 2250,
+            "backstretch": 1330,
+            "address": "3601 Highway 114",
+            "city": "Fort Worth",
+            "state": "Texas",
+            "zip": "76177",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "6c2be094-7477-4d92-b7ff-10dfda27e315"
+        },
+        "races": [{
+            "id": "7147887b-e757-4a14-aad3-0b25fbaa38c2",
+            "name": "O'Reilly Auto Parts 500",
+            "status": "closed",
+            "number": 7,
+            "distance": 501,
+            "laps": 334,
+            "scheduled": "2018-04-08T18:00:00+00:00",
+            "start_time": "2018-04-08T18:00:00+00:00",
+            "end_time": "2018-04-08T22:00:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "a844e049-7050-4f39-8494-0071667df16e",
+        "name": "NASCAR Cup Series at Bristol",
+        "start_date": "2018-04-15",
+        "track": {
+            "name": "Bristol Motor Speedway",
+            "market": "Bristol",
+            "completed": 1961,
+            "distance": 0.533,
+            "shape": "Oval",
+            "banking": "Turns:36;Backstretch:4-8;Frontstretch:5-9",
+            "frontstretch": 650,
+            "backstretch": 650,
+            "address": "151 Speedway Blvd.",
+            "city": "Bristol",
+            "state": "Tennessee",
+            "zip": "37620",
+            "country": "USA",
+            "surface": "Concrete",
+            "track_type": "Short Track",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "18fcc226-bc18-4b66-80fb-4867b654e588"
+        },
+        "races": [{
+            "id": "9dd18bc9-c6bc-4651-ac83-3dd8238d2d67",
+            "name": "Food City 500",
+            "status": "closed",
+            "number": 8,
+            "distance": 266,
+            "laps": 500,
+            "scheduled": "2018-04-15T17:00:00+00:00",
+            "start_time": "2018-04-16T17:00:00+00:00",
+            "end_time": "2018-04-15T21:00:00+00:00",
+            "broadcast": {
+                "network": "FOX",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "796f601a-65f2-4c8a-9374-1486e1ea07f4",
+        "name": "NASCAR Cup Series at Richmond",
+        "start_date": "2018-04-21",
+        "track": {
+            "name": "Richmond Raceway",
+            "market": "Richmond",
+            "completed": 1946,
+            "distance": 0.75,
+            "shape": "Tri-Oval",
+            "banking": "Turns:14;Backstretch:8;Frontstretch:2",
+            "frontstretch": 1290,
+            "backstretch": 860,
+            "address": "600 East Laburnum Avenue",
+            "city": "Richmond",
+            "state": "Virginia",
+            "zip": "23222",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Short Track",
+            "owner": "International Speedway Corp.",
+            "id": "734227a1-a32f-40bf-b174-0c0e7aa0d696"
+        },
+        "races": [{
+            "id": "178c929b-2b6b-4dc4-968a-0d8008f4c5a0",
+            "name": "Toyota Owners 400",
+            "status": "closed",
+            "number": 9,
+            "distance": 300,
+            "laps": 400,
+            "scheduled": "2018-04-21T22:30:00+00:00",
+            "start_time": "2018-04-21T22:30:00+00:00",
+            "end_time": "2018-04-22T02:00:00+00:00",
+            "broadcast": {
+                "network": "FOX",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "315ecdc7-164b-4687-b648-d6baba0648be",
+        "name": "NASCAR Cup Series at Talladega",
+        "start_date": "2018-04-29",
+        "track": {
+            "name": "Talladega Superspeedway",
+            "market": "Talladega",
+            "completed": 1969,
+            "distance": 2.66,
+            "shape": "Tri-Oval",
+            "banking": "Turns:33;Backstretch:2;Frontstretch:16.5",
+            "frontstretch": 4300,
+            "backstretch": 4000,
+            "address": "3366 Speedway Blvd.",
+            "city": "Talladega",
+            "state": "Alabama",
+            "zip": "35160",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "83e96e25-19f7-4538-809c-24e888cc3e41"
+        },
+        "races": [{
+            "id": "96c1146a-949c-4c2e-ab5d-6135b31f7aa1",
+            "name": "GEICO 500",
+            "status": "closed",
+            "number": 10,
+            "distance": 500,
+            "laps": 188,
+            "scheduled": "2018-04-29T18:00:00+00:00",
+            "start_time": "2018-04-29T18:00:00+00:00",
+            "end_time": "2018-04-29T22:00:00+00:00",
+            "broadcast": {
+                "network": "FOX",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "85bfbb99-0897-4947-993d-3aa2a9632013",
+        "name": "NASCAR Cup Series at Dover",
+        "start_date": "2018-05-06",
+        "track": {
+            "name": "Dover International Speedway",
+            "market": "Dover",
+            "completed": 1969,
+            "distance": 1.0,
+            "shape": "Oval",
+            "banking": "Turns:24:Backstretch:9;Frontstretch:9",
+            "frontstretch": 1076,
+            "backstretch": 1076,
+            "address": "1131 North DuPont Highway",
+            "city": "Dover",
+            "state": "Delaware",
+            "zip": "19901",
+            "country": "USA",
+            "surface": "Concrete",
+            "track_type": "Superspeedway",
+            "owner": "Dover Motorsports Inc.",
+            "id": "e757d061-86db-4b28-9b19-9a3536a6994e"
+        },
+        "races": [{
+            "id": "3a1011e8-5ad2-4c03-a608-52a1c8b80b93",
+            "name": "AAA 400 Drive for Autism",
+            "status": "closed",
+            "number": 11,
+            "distance": 400,
+            "laps": 400,
+            "scheduled": "2018-05-06T18:00:00+00:00",
+            "start_time": "2018-05-06T18:00:00+00:00",
+            "end_time": "2018-05-06T21:30:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "63a8eabc-2fdc-4616-8230-753093ff42cc",
+        "name": "NASCAR Cup Series at Kansas",
+        "start_date": "2018-05-12",
+        "track": {
+            "name": "Kansas Speedway",
+            "market": "Kansas City",
+            "completed": 2001,
+            "distance": 1.5,
+            "shape": "D-Shaped Oval",
+            "banking": "Turns:15;Backstretch:5:Frontstretch:10.4",
+            "frontstretch": 2685,
+            "backstretch": 2207,
+            "address": "400 Speedway Blvd.",
+            "city": "Kansas City",
+            "state": "Kansas",
+            "zip": "66111",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "42d3569d-cc77-4072-88d5-f63046eddf39"
+        },
+        "races": [{
+            "id": "addc3887-93f7-4cb6-b644-6d39b750111f",
+            "name": "KC Masterpiece 400",
+            "status": "closed",
+            "number": 12,
+            "distance": 400,
+            "laps": 267,
+            "scheduled": "2018-05-13T00:00:00+00:00",
+            "start_time": "2018-05-13T00:00:00+00:00",
+            "end_time": "2018-05-13T03:00:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "90e4cef3-bb3e-4a9e-94f6-2bf1dba3eb82",
+        "name": "NASCAR Cup Series at Charlotte",
+        "start_date": "2018-05-19",
+        "track": {
+            "name": "Charlotte Motor Speedway",
+            "market": "Charlotte",
+            "completed": 1960,
+            "distance": 1.5,
+            "shape": "Quad-Oval",
+            "banking": "Turns:24;Backstretch:5;Frontstretch:5",
+            "frontstretch": 1980,
+            "backstretch": 1500,
+            "address": "5555 Concord Parkway South",
+            "city": "Concord",
+            "state": "North Carolina",
+            "zip": "28027",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "c0ae0e00-9899-4d01-869b-56a4763cc54d"
+        },
+        "races": [{
+            "id": "968ce1e2-2c05-42f8-a9cd-f90554a991b1",
+            "name": "Monster Energy Open",
+            "status": "closed",
+            "distance": 75,
+            "laps": 50,
+            "scheduled": "2018-05-19T22:00:00+00:00",
+            "start_time": "2018-05-19T22:00:00+00:00",
+            "end_time": "2018-05-19T23:00:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }, {
+            "id": "5d39c74d-a4c8-4f1d-b137-b7823f2c6665",
+            "name": "Monster Energy NASCAR All-Star Race",
+            "status": "closed",
+            "distance": 105,
+            "laps": 70,
+            "scheduled": "2018-05-20T00:00:00+00:00",
+            "start_time": "2018-05-20T00:00:00+00:00",
+            "end_time": "2018-05-20T02:00:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }, {
+            "id": "720f73f8-67ac-453f-b674-cbac5621c5a0",
+            "name": "Coca-Cola 600",
+            "status": "closed",
+            "number": 13,
+            "distance": 600,
+            "laps": 400,
+            "scheduled": "2018-05-27T22:00:00+00:00",
+            "start_time": "2018-05-27T22:00:00+00:00",
+            "end_time": "2018-05-28T02:30:00+00:00",
+            "broadcast": {
+                "network": "FOX",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "a55f6cd7-683e-4c9e-b902-c83ca8fe65c1",
+        "name": "NASCAR Cup Series at Pocono",
+        "start_date": "2018-06-03",
+        "track": {
+            "name": "Pocono Raceway",
+            "market": "Long Pond",
+            "completed": 1968,
+            "distance": 2.5,
+            "shape": "Tri-Oval",
+            "banking": "Turn1:14;Turn2:8;Turn3:6;Backstretch:0;Frontstretch:0;ShortStretch:0",
+            "frontstretch": 3740,
+            "backstretch": 3055,
+            "address": "Long Pond Road",
+            "city": "Long Pond",
+            "state": "Pennsylvania",
+            "zip": "18334",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Mattioli Family",
+            "id": "7267d5f0-463e-4a81-a7fe-23b71dd2182e"
+        },
+        "races": [{
+            "id": "067f17a3-955c-4e66-a8db-b5f168bea1c6",
+            "name": "Pocono 400",
+            "status": "closed",
+            "number": 14,
+            "distance": 400,
+            "laps": 160,
+            "scheduled": "2018-06-03T18:00:00+00:00",
+            "start_time": "2018-06-03T18:00:00+00:00",
+            "end_time": "2018-06-03T21:00:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "cad18921-cfd2-4cc5-85b1-eed6e9c6f1b9",
+        "name": "NASCAR Cup Series at Michigan",
+        "start_date": "2018-06-10",
+        "track": {
+            "name": "Michigan International Speedway",
+            "market": "Brooklyn",
+            "completed": 1968,
+            "distance": 2.0,
+            "shape": "D-Shaped Oval",
+            "banking": "Turns:18;Backstretch:5;Frontstretch:12",
+            "frontstretch": 3600,
+            "backstretch": 2242,
+            "address": "12626 U.S. 12",
+            "city": "Brooklyn",
+            "state": "Michigan",
+            "zip": "49230",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "83865dba-7a30-441a-95e0-51219f7e7c56"
+        },
+        "races": [{
+            "id": "c13fb459-59a8-4983-9f47-165c4ebe020e",
+            "name": "FireKeepers Casino 400",
+            "status": "closed",
+            "number": 15,
+            "distance": 400,
+            "laps": 200,
+            "scheduled": "2018-06-10T18:00:00+00:00",
+            "start_time": "2018-06-10T18:00:00+00:00",
+            "end_time": "2018-06-10T21:30:00+00:00",
+            "broadcast": {
+                "network": "FOX",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "90362a20-da56-4c70-a9f6-5fb365f4e7e7",
+        "name": "NASCAR Cup Series at Sonoma",
+        "start_date": "2018-06-24",
+        "track": {
+            "name": "Sonoma Raceway",
+            "market": "Sonoma",
+            "completed": 1968,
+            "distance": 1.99,
+            "shape": "Road Course",
+            "banking": "11 Turns varying",
+            "frontstretch": 0,
+            "backstretch": 0,
+            "address": "29355 Arnold Drive",
+            "city": "Sonoma",
+            "state": "California",
+            "zip": "95476",
+            "country": "USA",
+            "surface": "Road",
+            "track_type": "Road Course",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "496fc152-b10f-4941-8439-f933eaae2e13"
+        },
+        "races": [{
+            "id": "76f3b534-e482-4105-91fc-7b4d8783ff07",
+            "name": "Toyota / Save Mart 350",
+            "status": "closed",
+            "number": 16,
+            "distance": 218,
+            "laps": 110,
+            "scheduled": "2018-06-24T19:00:00+00:00",
+            "start_time": "2018-06-24T19:00:00+00:00",
+            "end_time": "2018-06-24T22:30:00+00:00",
+            "broadcast": {
+                "network": "FS1",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "017bea19-d35f-446c-939a-f5f625d2df5a",
+        "name": "NASCAR Cup Series at Chicagoland",
+        "start_date": "2018-07-01",
+        "track": {
+            "name": "Chicagoland Speedway",
+            "market": "Joliet",
+            "completed": 2001,
+            "distance": 1.5,
+            "shape": "D-Shaped Oval",
+            "banking": "Turns:18;Backstretch:5;Tri-Oval:11",
+            "frontstretch": 2400,
+            "backstretch": 1700,
+            "address": "500 Speedway Blvd",
+            "city": "Joliet",
+            "state": "Illinois",
+            "zip": "60433",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "0e9dda94-eb5b-49e6-a09f-0869b82ce30b"
+        },
+        "races": [{
+            "id": "fd2937dd-f1dd-4f0f-ba33-2e6811202f83",
+            "name": "Overton’s 400",
+            "status": "closed",
+            "number": 17,
+            "distance": 400,
+            "laps": 267,
+            "scheduled": "2018-07-01T18:30:00+00:00",
+            "start_time": "2018-07-01T18:30:00+00:00",
+            "end_time": "2018-07-01T21:30:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "12d81dc5-f107-46f4-b421-eeca61d83b3e",
+        "name": "NASCAR Cup Series at Daytona",
+        "start_date": "2018-07-07",
+        "track": {
+            "name": "Daytona International Speedway",
+            "market": "Daytona Beach",
+            "completed": 1958,
+            "distance": 2.5,
+            "shape": "Tri-Oval",
+            "banking": "Turns: 31, Tri-Oval: 18, Backstretch: 3",
+            "frontstretch": 3800,
+            "backstretch": 3000,
+            "address": "1801 West International Speedway Blvd.",
+            "city": "Daytona Beach",
+            "state": "Florida",
+            "zip": "32114-1243",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "6ff97f68-2e9d-4fe6-8cd8-2969e1d3570b"
+        },
+        "races": [{
+            "id": "7b136d32-447f-4cbd-a4d8-fc1de3c2a892",
+            "name": "Coke Zero Sugar 400",
+            "status": "closed",
+            "number": 18,
+            "distance": 400,
+            "laps": 160,
+            "scheduled": "2018-07-07T23:00:00+00:00",
+            "start_time": "2018-07-07T23:00:00+00:00",
+            "end_time": "2018-07-08T03:00:00+00:00",
+            "broadcast": {
+                "network": "NBC",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "d5d733b8-1fdd-4da2-94e7-4e2e68dbe924",
+        "name": "NASCAR Cup Series at Kentucky",
+        "start_date": "2018-07-14",
+        "track": {
+            "name": "Kentucky Speedway",
+            "market": "Sparta",
+            "completed": 2000,
+            "distance": 1.5,
+            "shape": "Tri-Oval",
+            "banking": "Banking in Corners: 14 degrees; Banking on Straights: Front - 8 degrees; Back - 4 degrees",
+            "frontstretch": 1662,
+            "backstretch": 1600,
+            "address": "4760 Sparta Pike",
+            "city": "Sparta",
+            "state": "Kentucky",
+            "zip": "41086",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "8bde2b6c-236e-44c7-98ac-2fbcfb6ae13b"
+        },
+        "races": [{
+            "id": "3ef3f90c-a94d-4a86-867b-201dbfa69e0e",
+            "name": "Quaker State 400",
+            "status": "closed",
+            "number": 19,
+            "distance": 400,
+            "laps": 267,
+            "scheduled": "2018-07-14T23:30:00+00:00",
+            "start_time": "2018-07-14T23:30:00+00:00",
+            "end_time": "2018-07-15T03:00:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "9a6cf5fb-442b-43a8-97e9-1b5ee4f37c10",
+        "name": "NASCAR Cup Series at New Hampshire",
+        "start_date": "2018-07-22",
+        "track": {
+            "name": "New Hampshire Motor Speedway",
+            "market": "Loudon",
+            "completed": 1990,
+            "distance": 1.058,
+            "shape": "Oval",
+            "banking": "Turns: 2 & 7; Backstretch:1; Frontstretch:1",
+            "frontstretch": 1500,
+            "backstretch": 1500,
+            "address": "1122 Rte. 106 North",
+            "city": "Loudon",
+            "state": "New Hampshire",
+            "zip": "03307",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "cd705ff5-045b-4c96-a96e-74a98b5f95af"
+        },
+        "races": [{
+            "id": "169daad5-8a77-4d3c-be88-cb24fed9f1f9",
+            "name": "Foxwoods Resort Casino 301",
+            "status": "closed",
+            "number": 20,
+            "distance": 318,
+            "laps": 301,
+            "scheduled": "2018-07-22T17:00:00+00:00",
+            "start_time": "2018-07-23T16:00:00+00:00",
+            "end_time": "2018-07-22T21:30:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "176ddf98-7c67-4462-be55-1b433ecc4eda",
+        "name": "NASCAR Cup Series at Pocono",
+        "start_date": "2018-07-29",
+        "track": {
+            "name": "Pocono Raceway",
+            "market": "Long Pond",
+            "completed": 1968,
+            "distance": 2.5,
+            "shape": "Tri-Oval",
+            "banking": "Turn1:14;Turn2:8;Turn3:6;Backstretch:0;Frontstretch:0;ShortStretch:0",
+            "frontstretch": 3740,
+            "backstretch": 3055,
+            "address": "Long Pond Road",
+            "city": "Long Pond",
+            "state": "Pennsylvania",
+            "zip": "18334",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Mattioli Family",
+            "id": "7267d5f0-463e-4a81-a7fe-23b71dd2182e"
+        },
+        "races": [{
+            "id": "44e45821-2fe6-4158-9e84-f14d7e1ed336",
+            "name": "Gander Outdoors 400",
+            "status": "closed",
+            "number": 21,
+            "distance": 400,
+            "laps": 160,
+            "scheduled": "2018-07-29T18:30:00+00:00",
+            "start_time": "2018-07-29T18:30:00+00:00",
+            "end_time": "2018-07-29T21:30:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "6a1defb8-3916-4220-8bd1-2f3d9cc4f66b",
+        "name": "NASCAR Cup Series at Watkins Glen",
+        "start_date": "2018-08-05",
+        "track": {
+            "name": "Watkins Glen International",
+            "market": "Watkins Glen",
+            "completed": 1956,
+            "distance": 2.45,
+            "shape": "Road Course",
+            "banking": "Turns:6-10",
+            "frontstretch": 0,
+            "backstretch": 0,
+            "address": "2790 County Route 16",
+            "city": "Watkins Glen",
+            "state": "New York",
+            "zip": "14891",
+            "country": "USA",
+            "surface": "Road",
+            "track_type": "Road Course",
+            "owner": "International Speedway Corp.",
+            "id": "d52314d0-06c3-4619-a8d0-1d97a21d8f22"
+        },
+        "races": [{
+            "id": "4afbe193-5afb-4e62-b854-d114fb2ab6c3",
+            "name": "Go Bowling at The Glen",
+            "status": "closed",
+            "number": 22,
+            "distance": 220,
+            "laps": 90,
+            "scheduled": "2018-08-05T18:00:00+00:00",
+            "start_time": "2018-08-05T18:30:00+00:00",
+            "end_time": "2018-08-05T21:00:00+00:00",
+            "broadcast": {
+                "network": "NBC",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "6c0fb2e2-657e-4247-b23b-1f19b6098040",
+        "name": "NASCAR Cup Series at Michigan",
+        "start_date": "2018-08-12",
+        "track": {
+            "name": "Michigan International Speedway",
+            "market": "Brooklyn",
+            "completed": 1968,
+            "distance": 2.0,
+            "shape": "D-Shaped Oval",
+            "banking": "Turns:18;Backstretch:5;Frontstretch:12",
+            "frontstretch": 3600,
+            "backstretch": 2242,
+            "address": "12626 U.S. 12",
+            "city": "Brooklyn",
+            "state": "Michigan",
+            "zip": "49230",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "83865dba-7a30-441a-95e0-51219f7e7c56"
+        },
+        "races": [{
+            "id": "7252d708-2e8b-4ad5-bfc7-4147848f6ff2",
+            "name": "Consumers Energy 400",
+            "status": "closed",
+            "number": 23,
+            "distance": 400,
+            "laps": 200,
+            "scheduled": "2018-08-12T18:30:00+00:00",
+            "start_time": "2018-08-12T18:30:00+00:00",
+            "end_time": "2018-08-12T21:30:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "1a5041d4-17be-4dbf-81ad-5bd0f81bccd5",
+        "name": "NASCAR Cup Series at Bristol",
+        "start_date": "2018-08-18",
+        "track": {
+            "name": "Bristol Motor Speedway",
+            "market": "Bristol",
+            "completed": 1961,
+            "distance": 0.533,
+            "shape": "Oval",
+            "banking": "Turns:36;Backstretch:4-8;Frontstretch:5-9",
+            "frontstretch": 650,
+            "backstretch": 650,
+            "address": "151 Speedway Blvd.",
+            "city": "Bristol",
+            "state": "Tennessee",
+            "zip": "37620",
+            "country": "USA",
+            "surface": "Concrete",
+            "track_type": "Short Track",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "18fcc226-bc18-4b66-80fb-4867b654e588"
+        },
+        "races": [{
+            "id": "dcdd74d7-bf44-4d69-afa6-97523cf34726",
+            "name": "Bass Pro Shops NRA Night Race",
+            "status": "closed",
+            "number": 24,
+            "distance": 266,
+            "laps": 500,
+            "scheduled": "2018-08-18T22:30:00+00:00",
+            "start_time": "2018-08-18T22:30:00+00:00",
+            "end_time": "2018-08-19T02:30:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "281a8ae0-18be-47d6-bea9-569c9ea0ec5a",
+        "name": "NASCAR Cup Series at Darlington",
+        "start_date": "2018-09-02",
+        "track": {
+            "name": "Darlington Raceway",
+            "market": "Darlington",
+            "completed": 1950,
+            "distance": 1.366,
+            "shape": "Oval",
+            "banking": "Turns:23-25;Backstretch:6;Frontstretch:6",
+            "frontstretch": 1229,
+            "backstretch": 1229,
+            "address": "1301 Harry Byrd Hwy",
+            "city": "Darlington",
+            "state": "South Carolina",
+            "zip": "29532",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "aab526c7-4279-4693-9cb1-90e3c7b974fc"
+        },
+        "races": [{
+            "id": "88548f84-dc31-44f2-a4d0-80c4b6d44e76",
+            "name": "Bojangles' Southern 500",
+            "status": "closed",
+            "number": 25,
+            "distance": 501,
+            "laps": 367,
+            "scheduled": "2018-09-02T22:00:00+00:00",
+            "start_time": "2018-09-02T22:00:00+00:00",
+            "end_time": "2018-09-03T03:00:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "c0c38169-d825-46ef-aa1e-7096712930c0",
+        "name": "NASCAR Cup Series at Indianapolis",
+        "start_date": "2018-09-09",
+        "track": {
+            "name": "Indianapolis Motor Speedway",
+            "market": "Indianapolis",
+            "completed": 1909,
+            "distance": 2.5,
+            "shape": "Oval",
+            "banking": "Turns:9;Backstretch:0;Frontstretch:0",
+            "frontstretch": 3330,
+            "backstretch": 3330,
+            "address": "4790 West 16th Street",
+            "city": "Speedway",
+            "state": "Indiana",
+            "zip": "46222",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Indianapolis Motor Speedway",
+            "id": "421c2846-3b70-4ed9-acdf-be3dbe4957b6"
+        },
+        "races": [{
+            "id": "e3ac4a9a-b2b3-4a6e-af94-50f7989cb57e",
+            "name": "Big Machine Vodka 400 at the Brickyard",
+            "status": "closed",
+            "number": 26,
+            "distance": 400,
+            "laps": 160,
+            "scheduled": "2018-09-10T18:00:00+00:00",
+            "start_time": "2018-09-10T18:00:00+00:00",
+            "end_time": "2018-09-10T21:30:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "IMS"
+            }
+        }]
+    }, {
+        "id": "3ce65d61-56ab-43d3-b2e3-8de0422ccdd0",
+        "name": "NASCAR Cup Series at Las Vegas",
+        "start_date": "2018-09-16",
+        "track": {
+            "name": "Las Vegas Motor Speedway",
+            "market": "Las Vegas",
+            "completed": 1996,
+            "distance": 1.5,
+            "shape": "D-Shaped Oval",
+            "banking": "Turns: 20, Frontstretch: 9, Backstretch: 9",
+            "frontstretch": 2275,
+            "backstretch": 1572,
+            "address": "7000 Las Vegas Blvd. North",
+            "city": "Las Vegas",
+            "state": "Nevada",
+            "zip": "89115",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "9580816f-e17c-4167-8402-ba16725bcb19"
+        },
+        "races": [{
+            "id": "1d414863-56c5-4807-9014-e3e9ebcf7862",
+            "name": "South Point 400",
+            "status": "closed",
+            "number": 27,
+            "distance": 400,
+            "laps": 267,
+            "chase_race": true,
+            "scheduled": "2018-09-16T19:00:00+00:00",
+            "start_time": "2018-09-16T19:00:00+00:00",
+            "end_time": "2018-09-16T22:30:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "fc3d3fb2-b7cb-4cdc-b98a-2eda2840513e",
+        "name": "NASCAR Cup Series at Richmond",
+        "start_date": "2018-09-22",
+        "track": {
+            "name": "Richmond Raceway",
+            "market": "Richmond",
+            "completed": 1946,
+            "distance": 0.75,
+            "shape": "Tri-Oval",
+            "banking": "Turns:14;Backstretch:8;Frontstretch:2",
+            "frontstretch": 1290,
+            "backstretch": 860,
+            "address": "600 East Laburnum Avenue",
+            "city": "Richmond",
+            "state": "Virginia",
+            "zip": "23222",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Short Track",
+            "owner": "International Speedway Corp.",
+            "id": "734227a1-a32f-40bf-b174-0c0e7aa0d696"
+        },
+        "races": [{
+            "id": "d07a7bba-5826-4293-97a2-c395e09187bb",
+            "name": "Federated Auto Parts 400",
+            "status": "closed",
+            "number": 28,
+            "distance": 300,
+            "laps": 400,
+            "chase_race": true,
+            "scheduled": "2018-09-22T23:30:00+00:00",
+            "start_time": "2018-09-22T23:30:00+00:00",
+            "end_time": "2018-09-23T03:00:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "194d7bbd-a18a-4614-a77c-00437dddb9b4",
+        "name": "NASCAR Cup Series at Charlotte",
+        "start_date": "2018-09-30",
+        "track": {
+            "name": "Charlotte Motor Speedway Road Course",
+            "market": "Charlotte",
+            "completed": 2017,
+            "distance": 2.28,
+            "shape": "Road Course",
+            "banking": "Turns: 17, Backstretch: 5, Tri-Oval: 5",
+            "frontstretch": 1980,
+            "backstretch": 1500,
+            "address": "5555 Concord Parkway South",
+            "city": "Concord",
+            "state": "North Carolina",
+            "zip": "28027",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Road Course",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "035b5781-de86-49e6-98fb-b466e288ae10"
+        },
+        "races": [{
+            "id": "d6b61c4c-a0fa-447b-b1de-c39af759baec",
+            "name": "Bank of America ROVAL 400",
+            "status": "closed",
+            "number": 29,
+            "distance": 248,
+            "laps": 109,
+            "chase_race": true,
+            "scheduled": "2018-09-30T18:00:00+00:00",
+            "start_time": "2018-09-30T18:00:00+00:00",
+            "end_time": "2018-09-30T22:00:00+00:00",
+            "broadcast": {
+                "network": "NBC",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "34023b4f-15ac-44dd-a867-6ac8026375ef",
+        "name": "NASCAR Cup Series at Dover",
+        "start_date": "2018-10-07",
+        "track": {
+            "name": "Dover International Speedway",
+            "market": "Dover",
+            "completed": 1969,
+            "distance": 1.0,
+            "shape": "Oval",
+            "banking": "Turns:24:Backstretch:9;Frontstretch:9",
+            "frontstretch": 1076,
+            "backstretch": 1076,
+            "address": "1131 North DuPont Highway",
+            "city": "Dover",
+            "state": "Delaware",
+            "zip": "19901",
+            "country": "USA",
+            "surface": "Concrete",
+            "track_type": "Superspeedway",
+            "owner": "Dover Motorsports Inc.",
+            "id": "e757d061-86db-4b28-9b19-9a3536a6994e"
+        },
+        "races": [{
+            "id": "5436dc7b-1e90-4f22-bf64-b487cc3f9a76",
+            "name": "Gander Outdoors 400",
+            "status": "closed",
+            "number": 30,
+            "distance": 400,
+            "laps": 400,
+            "chase_race": true,
+            "scheduled": "2018-10-07T18:00:00+00:00",
+            "start_time": "2018-10-07T18:00:00+00:00",
+            "end_time": "2018-10-07T22:00:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "50161648-94e8-4eb7-b748-6460fe2ba33f",
+        "name": "NASCAR Cup Series at Talladega",
+        "start_date": "2018-10-14",
+        "track": {
+            "name": "Talladega Superspeedway",
+            "market": "Talladega",
+            "completed": 1969,
+            "distance": 2.66,
+            "shape": "Tri-Oval",
+            "banking": "Turns:33;Backstretch:2;Frontstretch:16.5",
+            "frontstretch": 4300,
+            "backstretch": 4000,
+            "address": "3366 Speedway Blvd.",
+            "city": "Talladega",
+            "state": "Alabama",
+            "zip": "35160",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "83e96e25-19f7-4538-809c-24e888cc3e41"
+        },
+        "races": [{
+            "id": "9eaa42c9-802e-409b-85f8-d9d6f03a6920",
+            "name": "1000Bulbs.com 500",
+            "status": "closed",
+            "number": 31,
+            "distance": 500,
+            "laps": 188,
+            "chase_race": true,
+            "scheduled": "2018-10-14T18:00:00+00:00",
+            "start_time": "2018-10-14T17:55:00+00:00",
+            "end_time": "2018-10-14T21:30:00+00:00",
+            "broadcast": {
+                "network": "NBC",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "adfd0098-314f-44f7-aaea-3d46dfdc7d2a",
+        "name": "NASCAR Cup Series at Kansas",
+        "start_date": "2018-10-21",
+        "track": {
+            "name": "Kansas Speedway",
+            "market": "Kansas City",
+            "completed": 2001,
+            "distance": 1.5,
+            "shape": "D-Shaped Oval",
+            "banking": "Turns:15;Backstretch:5:Frontstretch:10.4",
+            "frontstretch": 2685,
+            "backstretch": 2207,
+            "address": "400 Speedway Blvd.",
+            "city": "Kansas City",
+            "state": "Kansas",
+            "zip": "66111",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "42d3569d-cc77-4072-88d5-f63046eddf39"
+        },
+        "races": [{
+            "id": "e59ed70a-48ee-4c58-95f8-7dbb16d344d8",
+            "name": "Hollywood Casino 400",
+            "status": "closed",
+            "number": 32,
+            "distance": 400,
+            "laps": 267,
+            "chase_race": true,
+            "scheduled": "2018-10-21T18:30:00+00:00",
+            "start_time": "2018-10-21T18:20:00+00:00",
+            "end_time": "2018-10-21T22:00:00+00:00",
+            "broadcast": {
+                "network": "NBC",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "46ae6c45-6a75-4fbc-ab78-5474406270f3",
+        "name": "NASCAR Cup Series at Martinsville",
+        "start_date": "2018-10-28",
+        "track": {
+            "name": "Martinsville Speedway",
+            "market": "Martinsville",
+            "completed": 1947,
+            "distance": 0.526,
+            "shape": "Oval",
+            "banking": "Turns:12;Backstretch:0;Frontstretch:0",
+            "frontstretch": 800,
+            "backstretch": 800,
+            "address": "340 Speedway Road",
+            "city": "Martinsville",
+            "state": "Virginia",
+            "zip": "24112",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Short Track",
+            "owner": "International Speedway Corp.",
+            "id": "409dd8fb-2ab9-4181-9f0f-99545083b689"
+        },
+        "races": [{
+            "id": "03577c51-71dc-4ec8-858a-162966594415",
+            "name": "First Data 500",
+            "status": "closed",
+            "number": 33,
+            "distance": 263,
+            "laps": 500,
+            "chase_race": true,
+            "scheduled": "2018-10-28T18:30:00+00:00",
+            "start_time": "2018-10-28T18:30:00+00:00",
+            "end_time": "2018-10-28T22:00:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "4db868ce-3a06-4cb0-876f-219cc54c3eb6",
+        "name": "NASCAR Cup Series at Texas",
+        "start_date": "2018-11-04",
+        "track": {
+            "name": "Texas Motor Speedway",
+            "market": "Fort Worth",
+            "completed": 1995,
+            "distance": 1.5,
+            "shape": "Quad-Oval",
+            "banking": "Turns:24;Backstretch:5;Tri-Oval:5",
+            "frontstretch": 2250,
+            "backstretch": 1330,
+            "address": "3601 Highway 114",
+            "city": "Fort Worth",
+            "state": "Texas",
+            "zip": "76177",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "Speedway Motorsports Inc.",
+            "id": "6c2be094-7477-4d92-b7ff-10dfda27e315"
+        },
+        "races": [{
+            "id": "d4b92120-354d-498b-b38a-c9457e2ffa37",
+            "name": "AAA Texas 500",
+            "status": "closed",
+            "number": 34,
+            "distance": 501,
+            "laps": 334,
+            "chase_race": true,
+            "scheduled": "2018-11-04T20:00:00+00:00",
+            "start_time": "2018-11-04T20:00:00+00:00",
+            "end_time": "2018-11-05T00:00:00+00:00",
+            "broadcast": {
+                "network": "NBCSN",
+                "satellite": "SiriusXM",
+                "radio": "PRN"
+            }
+        }]
+    }, {
+        "id": "185000a4-6fae-4a2d-bf37-fa3cfa082ee3",
+        "name": "NASCAR Cup Series at Phoenix",
+        "start_date": "2018-11-11",
+        "track": {
+            "name": "ISM Raceway",
+            "market": "Phoenix",
+            "completed": 1964,
+            "distance": 1.0,
+            "shape": "Tri-Oval",
+            "banking": "Turns1-2:11;Turns3-4:9;Backstretch:9;Frontstretch:3",
+            "frontstretch": 1179,
+            "backstretch": 1551,
+            "address": "7602 S 115th Avenue",
+            "city": "Avondale",
+            "state": "Arizona",
+            "zip": "85323",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "5dc82850-ba60-4bd6-8ce3-4e07e8094a83"
+        },
+        "races": [{
+            "id": "c4362f11-5955-4575-a7f9-278109e6124c",
+            "name": "Can-Am 500",
+            "status": "closed",
+            "number": 35,
+            "distance": 312,
+            "laps": 312,
+            "chase_race": true,
+            "scheduled": "2018-11-11T19:30:00+00:00",
+            "start_time": "2018-11-11T19:30:00+00:00",
+            "end_time": "2018-11-11T22:30:00+00:00",
+            "broadcast": {
+                "network": "NBC",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }, {
+        "id": "6fc34bad-2752-4862-9d89-d6b83edc8ed2",
+        "name": "NASCAR Cup Series at Homestead-Miami",
+        "start_date": "2018-11-18",
+        "track": {
+            "name": "Homestead-Miami Speedway",
+            "market": "Homestead",
+            "completed": 1999,
+            "distance": 1.5,
+            "shape": "Oval",
+            "banking": "Turns:18-20;Backstretch:4;Frontstretch:4",
+            "frontstretch": 1760,
+            "backstretch": 1760,
+            "address": "One Speedway Blvd.",
+            "city": "Homestead",
+            "state": "Florida",
+            "zip": "33035-1500",
+            "country": "USA",
+            "surface": "Paved",
+            "track_type": "Superspeedway",
+            "owner": "International Speedway Corp.",
+            "id": "9e171ce2-7b98-4bed-b870-a01d7e393cda"
+        },
+        "races": [{
+            "id": "54e37e80-a894-4a32-a9e9-8fe9563afd7e",
+            "name": "Ford EcoBoost 400",
+            "status": "practice",
+            "number": 36,
+            "distance": 400,
+            "laps": 999,
+            "chase_race": true,
+            "scheduled": "2018-11-18T19:30:00+00:00",
+            "start_time": "2018-11-18T19:30:00+00:00",
+            "broadcast": {
+                "network": "NBC",
+                "satellite": "SiriusXM",
+                "radio": "MRN"
+            }
+        }]
+    }]
+}
