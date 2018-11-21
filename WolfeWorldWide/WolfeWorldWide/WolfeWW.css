@@ -29,7 +29,14 @@ body{
 #tb2{
     display: flex;
     flex-direction: row;
-    width: 8    0%;
+    width: 80%;
+    margin: auto;
+}
+
+#tb3{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
     margin: auto;
 }
 
@@ -92,9 +99,14 @@ body{
 
 /*MAIN SECTION*/
 #main-header-div{
+    position: sticky;
     text-align: center;
     font-size: 10px;
     background-image: linear-gradient(to bottom, rgba(50,50,50,.50),rgba(50,50,50,.50),rgba(50,50,50,.50),rgba(50,50,50,.50),rgba(50,50,50,.50), rgba(25,25,25,.80))
+}
+
+#main-form-div{
+        
 }
 
 
@@ -179,9 +191,11 @@ body{
 }
 
 #nas-li{
-    font-size: 10px;
+    width: 100%;
     text-align: center;
 }
+
+
 
 /* unvisited link */
 a:link {
