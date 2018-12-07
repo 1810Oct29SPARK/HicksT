@@ -77,3 +77,5 @@ local.properties
 
 
 Servers/
+
+*/connection.properties
