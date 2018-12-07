@@ -7,16 +7,16 @@ import java.util.Set;
 public class Mutations {
 
 	public static void main(String[] args) {
-		String mutStart = "AACCGGTT";
-		String mutEnd = "AAACGGTA";
-		String[] mutBank = { "AACCGGTA", "AACCGCTA", "AAACGGTA" };
-//		Scanner sc3 = new Scanner(System.in);
-//		mutStart = getStart();
-//		mutEnd = getEnd();
-//		System.out.println("Bank Size? : ");
-//		int bankSize = sc3.nextInt();
-//		mutBank = getBankValues(bankSize);
-		getCalculation(mutStart, mutEnd, mutBank, 3);
+		String mutStart;
+		String mutEnd;
+		String[] mutBank;
+		Scanner sc3 = new Scanner(System.in);
+		mutStart = getStart();
+		mutEnd = getEnd();
+		System.out.println("Bank Size? : ");
+		int bankSize = sc3.nextInt();
+		mutBank = getBankValues(bankSize);
+		getCalculation(mutStart, mutEnd, mutBank, bankSize);
 
 	}
 
