@@ -1,0 +1,103 @@
+--SELECT * FROM EMPLOYEE;
+--SELECT * FROM EMPLOYEE WHERE LASTNAME = 'King';
+--SELECT * FROM EMPLOYEE WHERE FIRSTNAME = 'Andrew' AND REPORTSTO IS NULL;
+--2.2 ORDER BY
+--Task – Select all albums in Album table and sort result set in descending order by title.
+--Task – Select first name from Customer and sort result set in ascending order by city
+--2.3 INSERT INTO
+--Task – Insert two new records into Genre table 
+--Task – Insert two new records into Employee table
+--Task – Insert two new records into Customer table
+--2.4 UPDATE
+--Task – Update Aaron Mitchell in Customer table to Robert Walter
+--Task – Update name of artist in the Artist table “Creedence Clearwater Revival” to “CCR”	
+--2.5 LIKE
+--Task – Select all invoices with a billing address like “T%” 
+--2.6 BETWEEN
+--Task – Select all invoices that have a total between 15 and 50
+--Task – Select all employeesID hired between 1st of June 2003 and 1st of March 2004
+--2.7 DELETE
+--Task – Delete a record in Customer table where the name is Robert Walter (There may be constraints that rely on this, find out how to resolve them).-- 	
+--
+--ALTER TABLE CUSTOMER
+--DROP CONSTRAINT FK_CUSTOMERSUPPORTREPID;
+--/
+--ALTER TABLE CUSTOMER
+--ADD CONSTRAINT FK_CUSTOMERSUPPORTREPID
+--FOREIGN KEY (SUPPORTREPID) REFERENCES EMPLOYEE(EMPLOYEEID) ON DELETE CASCADE;
+--/
+--ALTER TABLE INVOICE
+--DROP CONSTRAINT FK_INVOICECUSTOMERID;
+--/
+--ALTER TABLE INVOICE
+--ADD CONSTRAINT FK_INVOICECUSTOMERID
+--FOREIGN KEY (CUSTOMERID) REFERENCES CUSTOMER(CUSTOMERID) ON DELETE CASCADE;
+--/
+--ALTER TABLE INVOICELINE
+--DROP CONSTRAINT FK_INVOICELINEINVOICEID;
+--/
+--ALTER TABLE INVOICELINE
+--ADD CONSTRAINT FK_INVOICELINEINVOICEID
+--FOREIGN KEY (INVOICEID) REFERENCES INVOICE(INVOICEID) ON DELETE CASCADE;
+--/
+--DELETE
+--FROM CUSTOMER
+--WHERE FIRSTNAME = 'Robert' AND LASTNAME = 'Walter';
+--/
+--3.1
+--
+--SELECT TO_CHAR
+--    (CURRENT_DATE, 'MM-DD-YYYY HH24:MI:SS')
+--    FROM DUAL;
+--
+--SELECT LENGTH(NAME) FROM MEDIATYPE;
+--
+--3.2
+--
+--SELECT ROUND(AVG(TOTAL),2) FROM INVOICE;
+--
+--SELECT name, unitprice
+--from track
+--where unitprice = (
+--    select max(unitprice)
+--    from track
+)
+--
+--3.3
+--
+--SELECT ROUND(AVG(UNITPRICE),2) FROM INVOICElINE;
+--
+--3.4
+--
+--SELECT FIRSTNAME, LASTNAME FROM EMPLOYEE WHERE BIRTHDATE > DATE '1968-12-31';
+
+--
+--4.1
+--
+--CREATE OR REPLACE PROCEDURE GET_EMP_NAMES
+--RETURN SYS_REFCURSOR
+--IS 
+--S SYS_REFCURSOR;
+--BEGIN
+--    OPEN S FOR
+--    SELECT EMPLOYEEID, LASTNAME, FIRSTNAME FROM EMPLOYEE;
+--    RETURN S;
+--END;       
+--
+--DECLARE
+--S SYS_REFCURSOR;
+--
+--SOME_ID EMPLOYEE.EMPLOYEEID%TYPE;
+--SOME_LASTNAME EMPLOYEE.LASTNAME%TYPE;
+--SOME_FIRSTNAME EMPLOYEE.FIRSTNAME%TYPE;
+--
+--BEGIN
+--    S := spGET_EMP_NAMES;
+--    LOOP
+--        FETCH S INTO SOME_ID, SOME_FIRSTNAME, SOME_LASTNAME;
+--        EXIT WHEN S%NOTFOUND; 
+--        DBMS_OUTPUT.PUT_LINE(' ID: '||SOME_ID||', FIRSTNAME: '|| SOME_FIRSTNAME||', LASTNAME: '||SOME_LASTNAME);
+--    END LOOP;
+--    CLOSE S;
+--END;   
+
