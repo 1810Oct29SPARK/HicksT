@@ -9,7 +9,7 @@ window.onload = function() {
 }
 
 function populateUser() {
-	// send a GET request to localhost:7001/SessionMgmtDemo/Session
+	// send a GET request to localhost:7001/SessionMgmtDemo/Session (Context Path!!!)
 	fetch("http://localhost:7001/SessionMgmtDemo/session").then(function(response) {
 		return response.json();
 	}).then(function(data) {

@@ -29,6 +29,10 @@ public class ReimbStatus {
 	public String toString() {
 		return "ReimbStatus [statusId=" + statusId + ", statusName=" + statusName + "]";
 	}
+	public ReimbStatus(int statusId) {
+		super();
+		this.statusId = statusId;
+	}
 	
 	
 }

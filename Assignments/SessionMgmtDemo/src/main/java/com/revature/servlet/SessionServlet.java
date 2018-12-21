@@ -15,10 +15,16 @@ import com.revature.model.User;
 @WebServlet("/session")
 public class SessionServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// grab current session, if it exist
+		response.setContentType("application/json");
 		HttpSession session = request.getSession(false);
 		if(session != null &&  session.getAttribute("username") != null) {
 		try {

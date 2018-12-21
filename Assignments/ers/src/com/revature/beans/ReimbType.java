@@ -30,5 +30,11 @@ public class ReimbType {
 	public void setTypeName(String typeName) {
 		this.typeName = typeName;
 	}
+	public ReimbType(int typeId) {
+		super();
+		this.typeId = typeId;
+	}
+	
+	
 	
 }

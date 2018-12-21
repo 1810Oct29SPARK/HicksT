@@ -2,27 +2,12 @@ package com.revature.beans;
 
 public class Reimbursement {
 
-	@Override
-	public String toString() {
-		return "Reimbursement [id=" + id + ", amount=" + amount + ", description=" + description + ", author_id="
-				+ author_id + ", resolver_id=" + resolver_id + ", status_id=" + status_id + ", type_id=" + type_id
-				+ "]";
-	}
-	public Reimbursement() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	public Reimbursement(int id, double amount, String description, Employee author_id, Employee resolver_id,
-			ReimbStatus status_id, ReimbType type_id) {
-		super();
-		this.id = id;
-		this.amount = amount;
-		this.description = description;
-		this.author_id = author_id;
-		this.resolver_id = resolver_id;
-		this.status_id = status_id;
-		this.type_id = type_id;
-	}
+	private int id;
+	private double amount;
+	private Employee employee;
+	private Employee resolver;
+	private ReimbStatus statusId;
+	private ReimbType typeId;
 	public int getId() {
 		return id;
 	}
@@ -35,43 +20,49 @@ public class Reimbursement {
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
-	public String getDescription() {
-		return description;
+	public Employee getEmployee() {
+		return employee;
 	}
-	public void setDescription(String description) {
-		this.description = description;
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
 	}
-	public Employee getAuthor_id() {
-		return author_id;
+	public Employee getResolver() {
+		return resolver;
 	}
-	public void setAuthor_id(Employee author_id) {
-		this.author_id = author_id;
+	public void setResolver(Employee resolver) {
+		this.resolver = resolver;
 	}
-	public Employee getResolver_id() {
-		return resolver_id;
+	public ReimbStatus getStatusId() {
+		return statusId;
 	}
-	public void setResolver_id(Employee resolver_id) {
-		this.resolver_id = resolver_id;
+	public void setStatusId(ReimbStatus statusId) {
+		this.statusId = statusId;
 	}
-	public ReimbStatus getStatus_id() {
-		return status_id;
+	public ReimbType getTypeId() {
+		return typeId;
 	}
-	public void setStatus_id(ReimbStatus status_id) {
-		this.status_id = status_id;
+	public void setTypeId(ReimbType typeId) {
+		this.typeId = typeId;
 	}
-	public ReimbType getType_id() {
-		return type_id;
+	public Reimbursement(int id, double amount, Employee employee, Employee resolver,
+			ReimbStatus statusId, ReimbType typeId) {
+		super();
+		this.id = id;
+		this.amount = amount;
+		this.employee = employee;
+		this.resolver = resolver;
+		this.statusId = statusId;
+		this.typeId = typeId;
 	}
-	public void setType_id(ReimbType type_id) {
-		this.type_id = type_id;
+	public Reimbursement() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
-	private int id;
-	private double amount;
-	private String description;
-	private Employee author_id;
-	private Employee resolver_id;
-	private ReimbStatus status_id;
-	private ReimbType type_id;
+	@Override
+	public String toString() {
+		return "Reimbursement [id=" + id + ", amount=" + amount + ", employee="
+				+ employee + ", resolver=" + resolver + ", statusId=" + statusId + ", typeId=" + typeId + "]";
+	}
 	
 	
 }

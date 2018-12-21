@@ -1,5 +1,13 @@
 package com.revature.service;
 
-public class EmployeeService {
+import java.util.List;
 
+import com.revature.beans.Employee;
+
+public interface EmployeeService {
+	public List<Employee> getAll();
+	public Employee getEmployeeById(int id);
+	public void createEmployee();
+	public void updateEmployee();
+	public void deleteEmployee();
 }
