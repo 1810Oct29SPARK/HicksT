@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ERS: ExpenseNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!--<script src="main.js"></script>-->
+</head>
+
+<body style="background-image: url(https://cdn.pixabay.com/photo/2017/04/19/09/10/air-2241580__340.jpg); background-size: cover">
+    <header class="blog-header py-3" style=" background-image: linear-gradient(to bottom, rgba(200,200,200,.50),rgba(200,200,200,.50),rgba(200,200,200,.50),rgba(200,200,200,.50),rgba(200,200,200,.50), rgba(25,25,25,.80));">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-4 pt-1">
+                <p><span id="firstname"></span><span id="lastname"></span></p>
+            </div>
+            <div class="col-4 text-center">
+                <a class="blog-header-logo text-dark" href="employeehomepage">ERS ExpenseNet</a>
+            </div>
+            <div class="col-4 d-flex justify-content-end align-items-center">
+
+                <a class="btn btn-sm btn-outline-dark" href="managerreimbursements.html">Reimbursements</a>
+                <a class="btn btn-sm btn-outline-dark" href="managerprofile.html">Profile</a>
+                <a class="btn btn-sm btn-outline-dark" href="logout">Log
+                    Out</a>
+            </div>
+        </div>
+    </header>
+    <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" id="JumboBG1">
+        <div class="col-md-6 px-0">
+            <h1 class="display-6 font-italic">Employee Reimbursements</h1>
+        </div>
+    </div>
+
+    <div>
+        <table class="table table-sm table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">ID Number</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Comments</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Employee Name</th>
+                    <th scope="col">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-success">
+                    <th scope="row">1</th>
+
+                    <td>4321</td>
+                    <td>100.00</td>
+                    <td>Travel(Gas)</td>
+                    <td>N/A</td>
+                    <td>Approved</td>
+                    <td>Tessa Maben</td>
+                    <td><button class="btn btn-dark">Complete</button></td>
+                </tr>
+                <tr class="bg-success">
+                    <th scope="row">2</th>
+
+                    <td>4322</td>
+                    <td>100.00</td>
+                    <td>Travel(Air)</td>
+                    <td>N/A</td>
+                    <td>Approved</td>
+                    <td>Adina McTear</td>
+                    <td><button class="btn btn-dark">Complete</button></td>
+                </tr>
+                <tr class="bg-success">
+                    <th scope="row">3</th>
+
+                    <td>4324</td>
+                    <td>100.00</td>
+                    <td>Travel(Gas)</td>
+                    <td>N/A</td>
+                    <td>Approved</td>
+                    <td>Camile Mahody</td>
+                    <td><button class="btn btn-dark">Complete</button></td>
+                </tr>
+                <tr class="bg-danger">
+                    <th scope="row">4</th>
+
+                    <td>4323</td>
+                    <td>250.00</td>
+                    <td>Per Diem(food)</td>
+                    <td>Denied: Alcohol</td>
+                    <td>Denied</td>
+                    <td>Blancha Jest</td>
+                    <td><button class="btn btn-dark">Complete</button></td>
+                </tr>
+
+                <tr>
+                    <th scope="row">5</th>
+
+                    <td>4325</td>
+                    <td>300.00</td>
+                    <td>Certification</td>
+                    <td>N/A</td>
+                    <td>Pending</td>
+                    <td>Blancha Jest</td>
+                    <td><button class="btn btn-success">Accept</button><button class="btn btn-warning">Deny</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+
+                    <td>4326</td>
+                    <td>100.00</td>
+                    <td>Travel(Gas)</td>
+                    <td>N/A</td>
+                    <td>Pending</td>
+                    <td>Kalie de Guise</td>
+                    <td><button class="btn btn-success">Accept</button><button class="btn btn-warning">Deny</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+
+                    <td>4327</td>
+                    <td>600.00</td>
+                    <td>Travel(Air)</td>
+                    <td>N/A</td>
+                    <td>Pending</td>
+                    <td>Jonell Cadden</td>
+                    <td><button class="btn btn-success">Accept</button><button class="btn btn-warning">Deny</button></td>
+                </tr>
+                <tr id="output">
+
+                    <!-- <th scope="row">3</th>
+    
+                        <td>1236</td>
+                        <td>175.00</td>
+                        <td>Food</td>
+                        <td>Pending</td>
+                        <td>Muffin Apfler</td> -->
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" id="JumboBG1">
+        <div class="col-md-6 px-0">
+            <h1 class="display-6 font-italic">Your Personal Reimbursements</h1>
+        </div>
+    </div>
+    <div>
+
+
+        <table class="table table-sm table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">ID Number</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Manager Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-success">
+                    <th scope="row">1</th>
+
+                    <td>1234</td>
+                    <td>150.00</td>
+                    <td>Travel(Gas)</td>
+                    <td>Approved</td>
+                    <td>Kylie Rubinowitsch</td>
+                </tr>
+                <tr class="bg-danger">
+                    <th scope="row">2</th>
+
+                    <td>1235</td>
+                    <td>200.00</td>
+                    <td>Food</td>
+                    <td>Denied</td>
+                    <td>Kylie Rubinowitsch</td>
+                </tr>
+                <tr id="output">
+
+                    <!-- <th scope="row">3</th>
+
+					<td>1236</td>
+					<td>175.00</td>
+					<td>Food</td>
+					<td>Pending</td>
+					<td>Muffin Apfler</td> -->
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark" id="JumboBG1">
+            <h3 class="display-6 font-italic" id="new">Have a new Reimbursement to report?</h3>
+            <button class="btn btn-dark" class="tablink" onclick="openSubmit('submit', this)">Submit New reimbursement</button>
+
+            <div class="submit" class="tabcontent">
+                <form action="managerrreimbursements.html" method="GET">
+                    <div class="form-group">
+                        <label for="number">Amount</label>
+                        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="150.00">
+                        <small id="Number" class="form-text text-white">Please enter in 000.00 format</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Description</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Travel(Gas)</option>
+                            <option>Travel(Air)</option>
+                            <option>Travel(Lodge)</option>
+                            <option>Per Diem(Food)</option>
+                            <option>Certification</option>
+                            <option>Other...</option>
+                        </select>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="classmain.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.getElementById('getNewReimbursement').addEventListener('click', getNewReimbursement);
+    </script>
+    <!-- <script>
+		<button class="tablink" onclick="openArtist('HipHop', this, 'red')" id="defaultOpen">Hip Hop</button>
+
+			function openArtist(artistName,elmnt,color){
+				var i, tabcontent, tablinks;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = "none";   
+				}
+				tablinks = document.getElementsByClassName("tablink");
+				for (i = 0; i < tablinks.length; i++){
+					tablinks[i].style.backgroundColor = "";
+				}
+				document.getElementById(artistName).style.display = "block";
+				elmnt.style.backgroundColor = color;
+		
+			} -->
+</body>
+
+</htm>
